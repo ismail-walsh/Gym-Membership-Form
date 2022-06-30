@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-70.5" y="-15.0">com</node>
+    <node x="-81.5" y="-15.0">images</node>
+    <node x="-89.5" y="-15.0">netscape</node>
+    <node x="-66.5" y="-15.0">org</node>
+    <node x="-70.5" y="-15.0">dsld</node>
+    <node x="-75.0" y="-15.0">kotlin</node>
+    <node x="-122.0" y="-15.0">MembershipForm</node>
+    <node x="167.5" y="-83.5">toolbarButtonGraphics</node>
+    <node x="-162.5" y="143.0">sun</node>
+    <node x="244.5" y="-38.0">jdk</node>
+    <node x="-37.5" y="31.0">META-INF</node>
+    <node x="-196.0" y="-129.0">groovyjarjarantlr4</node>
+    <node x="257.0" y="96.0">apple</node>
+    <node x="386.0" y="-8.0">groovyjarjarasm</node>
+    <node x="552.5" y="-72.0">java</node>
+    <node x="-18.5" y="-72.0">groovy</node>
+    <node x="-4.5" y="87.0">javax</node>
+    <node x="91.5" y="-129.0">groovyjarjarpicocli</node>
+    <node x="28.0" y="-175.0">groovyjarjarcommonscli</node>
+    <node x="-8.0" y="126.0">groovyjarjarantlr</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="false" x="359.0" y="14.0" />
+  <SelectedNodes>
+    <node>sun</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

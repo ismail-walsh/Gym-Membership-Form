@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MembershipForm.IntroGUI">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="66" y="20" width="1192" height="509"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="3867d" binding="introPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="adde0" binding="rightPanel" layout-manager="GridLayoutManager" row-count="12" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="300" height="300"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <hspacer id="67cfa">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="42855" class="javax.swing.JLabel" binding="labelPic2">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <minimum-size width="600" height="-1"/>
+                    <preferred-size width="600" height="-1"/>
+                    <maximum-size width="600" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-1"/>
+                  <opaque value="true"/>
+                  <text value=""/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                </clientProperties>
+              </component>
+              <component id="8e4fd" class="javax.swing.JLabel" binding="labelPic">
+                <constraints>
+                  <grid row="0" column="6" row-span="12" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <minimum-size width="600" height="-1"/>
+                    <preferred-size width="600" height="-1"/>
+                    <maximum-size width="600" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-1"/>
+                  <opaque value="false"/>
+                  <text value=""/>
+                  <verticalAlignment value="1"/>
+                </properties>
+              </component>
+              <hspacer id="ca980">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="77318">
+                <constraints>
+                  <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="59ba0">
+                <constraints>
+                  <grid row="11" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="e6cb5" class="javax.swing.JProgressBar" binding="progressBar1" default-binding="true">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <string value="0%"/>
+                  <stringPainted value="true"/>
+                </properties>
+              </component>
+              <component id="87406" class="javax.swing.JTextField" binding="txtMemberNo">
+                <constraints>
+                  <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="393" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <caretColor color="-1"/>
+                  <disabledTextColor color="-8158333"/>
+                  <dragEnabled value="true"/>
+                  <font name="Droid Sans Mono" size="12" style="0"/>
+                  <foreground color="-16777216"/>
+                  <name value="Enter first Name"/>
+                  <opaque value="false"/>
+                  <selectionColor color="-12217940"/>
+                </properties>
+              </component>
+              <component id="7379a" class="javax.swing.JLabel" binding="txtUsername">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value=""/>
+                  <text value="Membership Number:"/>
+                </properties>
+              </component>
+              <component id="37b20" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Thonburi" size="48" style="0"/>
+                  <foreground color="-14980196"/>
+                  <text value="MyGym"/>
+                </properties>
+              </component>
+              <component id="6c69d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="0"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value=""/>
+                  <text value="If you are  returning member, please enter your membership number and click renew. If not, then click sign up to join us!"/>
+                </properties>
+              </component>
+              <component id="dde31" class="javax.swing.JButton" binding="renewButton">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="-1"/>
+                    <preferred-size width="150" height="30"/>
+                    <maximum-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-14441527"/>
+                  <borderPainted value="false"/>
+                  <font name="SansSerif" size="16" style="1"/>
+                  <foreground color="-1"/>
+                  <hideActionText value="true"/>
+                  <opaque value="true"/>
+                  <text value="Renew"/>
+                </properties>
+              </component>
+              <component id="9be33" class="javax.swing.JButton" binding="signUp">
+                <constraints>
+                  <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="-1"/>
+                    <preferred-size width="150" height="30"/>
+                    <maximum-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-14441527"/>
+                  <borderPainted value="false"/>
+                  <font name="SansSerif" size="16" style="1"/>
+                  <foreground color="-1"/>
+                  <hideActionText value="true"/>
+                  <opaque value="true"/>
+                  <text value="Sign Up"/>
+                </properties>
+              </component>
+              <component id="43bc0" class="javax.swing.JLabel" binding="labelMotto">
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="183" height="18"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Thonburi"/>
+                  <foreground color="-14980196"/>
+                  <text value="People matter, results count."/>
+                </properties>
+              </component>
+              <component id="3c0c8" class="javax.swing.JLabel" binding="gymIcon">
+                <constraints>
+                  <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="10d6" class="javax.swing.JLabel" binding="errorLabel1">
+                <constraints>
+                  <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-4517365"/>
+                  <text value="To renew, please enter your membership number."/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

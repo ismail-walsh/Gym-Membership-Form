@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MembershipForm.SummaryDetailsGUI">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1216" height="694"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="7ebc" binding="summaryPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="a740c" binding="rightPanel" layout-manager="GridLayoutManager" row-count="23" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="300" height="300"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="1f99b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="Full Name:"/>
+                </properties>
+              </component>
+              <component id="64582" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <text value="Address: "/>
+                </properties>
+              </component>
+              <component id="ea72" class="javax.swing.JButton" binding="finishButton">
+                <constraints>
+                  <grid row="20" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="-1"/>
+                    <preferred-size width="150" height="30"/>
+                    <maximum-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-14441527"/>
+                  <borderPainted value="false"/>
+                  <font name="SansSerif" size="16" style="1"/>
+                  <foreground color="-1"/>
+                  <hideActionText value="true"/>
+                  <opaque value="true"/>
+                  <text value="Finish"/>
+                </properties>
+              </component>
+              <hspacer id="430ed">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="b4624" class="javax.swing.JLabel" binding="labelPic2">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <minimum-size width="600" height="-1"/>
+                    <preferred-size width="600" height="-1"/>
+                    <maximum-size width="600" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-1"/>
+                  <opaque value="true"/>
+                  <text value=""/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                </clientProperties>
+              </component>
+              <component id="cbe42" class="javax.swing.JLabel" binding="labelPic">
+                <constraints>
+                  <grid row="0" column="6" row-span="23" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <minimum-size width="600" height="-1"/>
+                    <preferred-size width="600" height="-1"/>
+                    <maximum-size width="600" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-1"/>
+                  <opaque value="false"/>
+                  <text value=""/>
+                  <verticalAlignment value="1"/>
+                </properties>
+              </component>
+              <hspacer id="be8da">
+                <constraints>
+                  <grid row="19" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="d1fe5">
+                <constraints>
+                  <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="a6bdc" class="javax.swing.JLabel" binding="labelMotto">
+                <constraints>
+                  <grid row="21" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="183" height="18"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Thonburi"/>
+                  <foreground color="-14980196"/>
+                  <text value="People matter, results count."/>
+                </properties>
+              </component>
+              <vspacer id="867a3">
+                <constraints>
+                  <grid row="22" column="2" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="b1850" class="javax.swing.JProgressBar" binding="progressBar1" default-binding="true">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <string value="90%"/>
+                  <stringPainted value="true"/>
+                  <value value="90"/>
+                </properties>
+              </component>
+              <component id="f76a6" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <text value="Post Code:"/>
+                </properties>
+              </component>
+              <component id="f64b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <text value="Telephone:"/>
+                </properties>
+              </component>
+              <component id="b2590" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="Title:"/>
+                </properties>
+              </component>
+              <component id="560c3" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <text value="Mobile:"/>
+                </properties>
+              </component>
+              <component id="4b61" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <text value="Work Tel:"/>
+                </properties>
+              </component>
+              <component id="bda27" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <text value="Date of Birth:"/>
+                </properties>
+              </component>
+              <component id="5d806" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <text value="Marketing:"/>
+                </properties>
+              </component>
+              <component id="c52c2" class="javax.swing.JLabel" binding="txtTitle">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="3a2fb" class="javax.swing.JLabel" binding="txtFullName">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="f35a4" class="javax.swing.JLabel" binding="txtAddress">
+                <constraints>
+                  <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="ddbe8" class="javax.swing.JLabel" binding="txtPostCode">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="c8894" class="javax.swing.JLabel" binding="txtTelephone">
+                <constraints>
+                  <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="b4f5d" class="javax.swing.JLabel" binding="txtMobile">
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="d4042" class="javax.swing.JLabel" binding="txtWorkTel">
+                <constraints>
+                  <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="999f3" class="javax.swing.JLabel" binding="txtDob">
+                <constraints>
+                  <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="2152d" class="javax.swing.JLabel" binding="txtMarketing">
+                <constraints>
+                  <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="f1dbe" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="Card Holder:"/>
+                </properties>
+              </component>
+              <component id="4a242" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="Card Number:"/>
+                </properties>
+              </component>
+              <component id="de198" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="SC:"/>
+                </properties>
+              </component>
+              <component id="acd4b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="Account No:"/>
+                </properties>
+              </component>
+              <component id="b1ded" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="Expire:"/>
+                </properties>
+              </component>
+              <component id="c9107" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="CVV:"/>
+                </properties>
+              </component>
+              <component id="d3fd" class="javax.swing.JLabel" binding="txtCardHolder">
+                <constraints>
+                  <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="ce5d2" class="javax.swing.JLabel" binding="txtCardNumber">
+                <constraints>
+                  <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="7e3d4" class="javax.swing.JLabel" binding="txtSC">
+                <constraints>
+                  <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="75143" class="javax.swing.JLabel" binding="txtAccountNo">
+                <constraints>
+                  <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="e7d03" class="javax.swing.JLabel" binding="txtExpire">
+                <constraints>
+                  <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="7eff3" class="javax.swing.JLabel" binding="txtCVV">
+                <constraints>
+                  <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="a8f74" class="javax.swing.JCheckBox" binding="chkAuthorisation">
+                <constraints>
+                  <grid row="19" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="289" height="24"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="I confirm that these details are correct."/>
+                </properties>
+              </component>
+              <component id="d8264" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="Membership:"/>
+                </properties>
+              </component>
+              <component id="43124" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="MembershipNo:"/>
+                </properties>
+              </component>
+              <component id="afdd7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="Letter:"/>
+                </properties>
+              </component>
+              <component id="63160" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="Date:"/>
+                </properties>
+              </component>
+              <component id="143ca" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="Declaration:"/>
+                </properties>
+              </component>
+              <component id="b73e4" class="javax.swing.JLabel" binding="txtMembership">
+                <constraints>
+                  <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="7f7fe" class="javax.swing.JLabel" binding="txtMembershipNo">
+                <constraints>
+                  <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="51a85" class="javax.swing.JLabel" binding="txtLetter">
+                <constraints>
+                  <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="feda5" class="javax.swing.JLabel" binding="txtDate">
+                <constraints>
+                  <grid row="16" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="4a8ef" class="javax.swing.JLabel" binding="txtDeclaration">
+                <constraints>
+                  <grid row="17" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="33126" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="Annual Payment:"/>
+                </properties>
+              </component>
+              <component id="47c9b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="First Months Pay:"/>
+                </properties>
+              </component>
+              <component id="56dfa" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="15" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="Direct Debit:"/>
+                </properties>
+              </component>
+              <component id="81434" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="16" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="First Instalment:"/>
+                </properties>
+              </component>
+              <component id="dafc2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="17" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="Date Joined:"/>
+                </properties>
+              </component>
+              <component id="2d37c" class="javax.swing.JLabel" binding="txtAnnualP">
+                <constraints>
+                  <grid row="13" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="f5d82" class="javax.swing.JLabel" binding="txtFirstMonth">
+                <constraints>
+                  <grid row="14" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="5bc64" class="javax.swing.JLabel" binding="txtDirectDeb">
+                <constraints>
+                  <grid row="15" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="a8c38" class="javax.swing.JLabel" binding="txtFirstInstall">
+                <constraints>
+                  <grid row="16" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="729f9" class="javax.swing.JLabel" binding="txtDateJoined">
+                <constraints>
+                  <grid row="17" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="8b9a9" class="javax.swing.JButton" binding="goBackButton" default-binding="true">
+                <constraints>
+                  <grid row="20" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Go Back"/>
+                </properties>
+              </component>
+              <component id="25240" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Thonburi" size="48" style="0"/>
+                  <foreground color="-14980196"/>
+                  <text value="Summary"/>
+                </properties>
+              </component>
+              <component id="5540" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-918273"/>
+                  <font name="SansSerif" size="12" style="1"/>
+                  <foreground color="-8158333"/>
+                  <labelFor value="1cb90"/>
+                  <text value="Renewal:"/>
+                </properties>
+              </component>
+              <component id="f92fb" class="javax.swing.JLabel" binding="txtRenew">
+                <constraints>
+                  <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
